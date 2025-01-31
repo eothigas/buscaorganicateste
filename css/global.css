@@ -49,12 +49,22 @@ li {
             font-size: 16px !important;
         }
     }
+
+    .footer {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
 }
 
 @media screen and (max-width: 680px) {
     
     .button-actions {
         display: flex !important;
+    }
+
+    .info-small {
+        padding-bottom: 80px !important;
     }
 
     .carrousel-button {

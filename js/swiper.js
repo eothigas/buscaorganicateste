@@ -14,8 +14,11 @@ $(window).on('load', function() {
 document.addEventListener('DOMContentLoaded', () => {
     const navbarToggler = document.querySelector('.line-btn');
     const main = document.querySelector('main');
+    const footer = document.querySelector('footer');
+
 
     navbarToggler.addEventListener('click', () => {
         main.classList.toggle('blur-active');
+        footer.classList.toggle('blur-active');
     });
 });

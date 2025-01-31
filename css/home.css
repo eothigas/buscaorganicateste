@@ -36,13 +36,13 @@
 }
 
 .nivoSlider img {
-    max-height: 790px;
+    max-height: 800px;
     position: relative;
     filter: brightness(0.4);
 }
 
 .slider-wrapper {
-    margin-top: 129px;
+    margin-top: 86px;
 }
 
 .blur-active {
@@ -204,4 +204,110 @@
         width: 300px;
         border-radius: 10px;
     }
+}
+
+footer {
+    background-color: var(--cor-primaria);
+    margin-top: 20px;
+    h4 {
+        margin: 0;
+    }
+}
+
+.footer {
+    border-color: var(--icons) !important;
+}
+
+.enterprise {
+    margin: 20px 0;
+    h6 {
+        color: var(--cor-secundaria);
+        margin: 5px 0;
+        font-size: 12px;
+    }
+
+    .social-media {
+        gap: 10px;
+        margin-top: 15px;
+    }
+
+    .x {
+        display: flex;
+        background-color: black;
+        color: var(--cor-secundaria);
+        padding: 8px;
+        border-radius: 50%;
+    }
+
+    .insta {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        color: var(--cor-secundaria);
+        background-color: rgb(225, 48, 108);
+        padding: 8px;
+        border-radius: 50%;
+    }
+
+    .in {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        color: var(--cor-secundaria);
+        background-color: rgb(14, 118, 168);
+        padding: 8px;
+        border-radius: 50%;
+    }
+
+    .yt {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        color: var(--cor-secundaria);
+        background-color: rgb(255, 0, 0);
+        padding: 8px;
+        border-radius: 50%;
+    }
+
+    .fb {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        color: var(--cor-secundaria);
+        background-color: rgb(66, 103, 178);
+        padding: 8px;
+        border-radius: 50%;
+    }
+}
+
+.institutional, .services {
+    margin: 40px 0 0 0;
+    gap: 5px;
+    width: 100%;
+    h6{
+        color: var(--cor-secundaria);
+        margin-bottom: 5px;
+        font-weight: 700;
+    }
+    .inst-links, .serv-links {
+        color: var(--cor-secundaria);
+        text-decoration: none;
+        border-bottom: 1px solid var(--cor-secundaria) ;
+        padding-bottom: 3px;
+        font-size: 11px;
+    }
+
+    .inst-links:hover,
+    .serv-links:hover {
+        text-decoration: underline;
+    }
+}
+
+small {
+    color: var(--cor-secundaria);
+    font-size: 12px;
 }
