@@ -3,9 +3,12 @@
 :root {
     
     --cor-primaria: rgb(69, 48, 116);
+    --cor-primaria-hover: rgb(69, 48, 116, 0.9);
     --cor-secundaria: white;
     --texto: rgb(49, 49, 49);
     --cor-linha: rgb(5, 195, 222);
+    --navbar-action: rgb(15, 24, 28);
+    --icons: rgb(5, 195, 222);
 }
 
 * {
@@ -14,11 +17,15 @@
     font-family: Poppins, sans-serif;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 li {
     list-style: none;
 }
 
-a {
+.nav-links {
     text-decoration: none;
     color: var(--cor-secundaria);
 }
@@ -31,5 +38,17 @@ a {
     .nav-container-responsive {
         display: flex !important;
     }
+}
+
+@media screen and (max-width: 680px) {
+    
+    .button-actions {
+        display: flex !important;
+    }
+
+    .carrousel-button {
+        display: none !important;
+    }
 
 }
+
