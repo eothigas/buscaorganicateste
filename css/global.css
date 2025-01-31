@@ -5,7 +5,7 @@
     --cor-primaria: rgb(69, 48, 116);
     --cor-secundaria: white;
     --texto: rgb(49, 49, 49);
-
+    --cor-linha: rgb(5, 195, 222);
 }
 
 * {
@@ -16,4 +16,20 @@
 
 li {
     list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+
+@media screen and (max-width: 1240px) {
+    
+    .nav-container {
+        display: none !important;
+    }
+    .nav-container-responsive {
+        display: flex !important;
+    }
+
 }

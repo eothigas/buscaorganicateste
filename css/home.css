@@ -1,8 +1,27 @@
-.nav-container {
+.nav-container, .nav-container-responsive {
     background-color: var(--cor-primaria);
 }
 
 .menu-links li {
     color: var(--cor-secundaria);
     font-size: 22px; 
+}
+
+.button-nav {
+    color: var(--cor-secundaria);
+    font-size: 30px;
+}
+
+.line-btn:hover {
+    border-color: var(--cor-linha);
+
+}
+
+.nav-items a{
+    border-bottom: 3px solid transparent;
+}
+
+.nav-items a:hover {
+    border-color:var(--cor-linha);
+    transition: 0.6s all ease;
 }
