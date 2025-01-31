@@ -55,6 +55,15 @@ li {
         justify-content: center;
         padding-bottom: 10px;
     }
+
+    .institutional, .services {
+        h6 {
+            font-size:22px;
+        }
+        a {
+            font-size: 16px !important;
+        }
+    }
 }
 
 @media screen and (max-width: 680px) {
