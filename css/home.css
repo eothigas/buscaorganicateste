@@ -102,4 +102,106 @@
         background-color: var(--cor-primaria-hover);
     }
 }
-  
+
+.about-us {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.solutions {
+    padding: 100px 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(69,48,116,1) 40%, rgba(5,195,222,1) 100%, rgba(0,212,255,1) 100%);
+    a{
+        text-decoration: none;
+        color: var(--texto);
+        font-size: 20px;
+    }
+    a:hover {
+        border-bottom: 2px solid var(--icons);
+        transition: 0.6s all ease;
+    }
+}
+
+.card {
+
+    p {
+        color: var(--texto);
+    }
+
+    h5 {
+        font-weight: 800;
+    }
+
+}
+
+.card:hover {
+    box-shadow: 8px 8px var(--icons);
+    transform: scale(1.05);
+    transition: 0.6s all ease-in;
+}
+
+.client-attention {
+    background: rgb(69,48,116);
+    background: linear-gradient(90deg, rgba(69,48,116,1) 0%, rgba(2,0,36,1) 100%);      
+    margin-top: -60px;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    
+    h2 {
+        color: var(--cor-secundaria);
+    }
+    
+    a { 
+        text-decoration: none;
+        font-size: 25px;
+        background-color: var(--cor-primaria);
+        padding: 10px 20px;
+        border-radius: 10px  0 10px 0;
+        box-shadow: 4px 4px var(--icons);
+        color: var(--cor-secundaria);
+    }
+}
+ 
+
+.clients-showroom{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 0;
+    border: 3px solid var(--cor-primaria);
+    border-radius: 10px;
+
+    .title-box {
+        width: 40%;
+        text-align: center;
+        gap: 20px;
+        padding: 20px;
+
+        h5 {
+            color: var(--icons);
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+    }
+
+    .content-box {
+        width: 80%;
+        padding: 20px 40px;
+        
+        p {
+            font-size: 18px;
+            color: var(--texto);
+        }
+    }
+}
+
+.logo-clients {
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 70px;
+    img {
+        width: 300px;
+        border-radius: 10px;
+    }
+}

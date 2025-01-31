@@ -38,6 +38,17 @@ li {
     .nav-container-responsive {
         display: flex !important;
     }
+    .client-attention {
+        justify-content: center !important;
+        gap: 20px;
+        /* align-items: center; */
+        h2 {
+            font-size: 20px;
+        }
+        a {
+            font-size: 16px !important;
+        }
+    }
 }
 
 @media screen and (max-width: 680px) {
@@ -48,6 +59,17 @@ li {
 
     .carrousel-button {
         display: none !important;
+    }
+}
+
+@media screen and (max-width: 1399px){
+    
+    .solutions-card {
+        flex-wrap: nowrap !important;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
     }
 
 }
