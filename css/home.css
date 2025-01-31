@@ -1,0 +1,8 @@
+.nav-container {
+    background-color: var(--cor-primaria);
+}
+
+.menu-links li {
+    color: var(--cor-secundaria);
+    font-size: 22px; 
+}
