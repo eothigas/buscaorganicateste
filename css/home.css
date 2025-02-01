@@ -204,6 +204,9 @@ footer {
 
 .footer {
     border-color: var(--icons) !important;
+    a {
+        text-decoration: none;
+    }
 }
 
 .enterprise {
