@@ -1,3 +1,4 @@
+// Biblioteca NivoSlider
 $(window).on('load', function() {
     $('#slider').nivoSlider({
       effect: 'slideInRight',
@@ -11,11 +12,11 @@ $(window).on('load', function() {
     });
 });
 
+// Função para ativar Blur, quando abrir Navbar responsiva
 document.addEventListener('DOMContentLoaded', () => {
     const navbarToggler = document.querySelector('.line-btn');
     const main = document.querySelector('main');
     const footer = document.querySelector('footer');
-
 
     navbarToggler.addEventListener('click', () => {
         main.classList.toggle('blur-active');
