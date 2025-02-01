@@ -1,5 +1,3 @@
-
-
 .nivoSlider img {
     max-height: 800px;
     position: relative;
@@ -213,7 +211,7 @@ footer {
     h6 {
         color: var(--cor-secundaria);
         margin: 5px 0;
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .social-media {
@@ -275,20 +273,21 @@ footer {
 }
 
 .institutional, .services {
-    margin: 40px 0 0 0;
+    margin: 40px 0 20px 0;
     gap: 5px;
     width: 100%;
     h6{
         color: var(--cor-secundaria);
         margin-bottom: 5px;
         font-weight: 700;
+        font-size: 20px;
     }
     .inst-links, .serv-links {
         color: var(--cor-secundaria);
         text-decoration: none;
         border-bottom: 1px solid var(--cor-secundaria) ;
         padding-bottom: 3px;
-        font-size: 11px;
+        font-size: 15px;
     }
 
     .inst-links:hover,
@@ -299,5 +298,5 @@ footer {
 
 small {
     color: var(--cor-secundaria);
-    font-size: 12px;
+    font-size: 14px;
 }

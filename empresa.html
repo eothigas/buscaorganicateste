@@ -29,7 +29,7 @@
                     </a>
                 </li>
                 <li class="nav-items">
-                    <a class="nav-links" href="#">
+                    <a class="nav-links active" href="#">
                         EMPRESA
                     </a>
                 </li>
@@ -157,66 +157,52 @@
             </div>
         </section>
 
-        <section class="solutions">
-            <div class="container d-flex justify-content-between flex-wrap solutions-card">
-                <div class="card" style="width: 25rem;">
-                    <img src="./images/vetor1.png" class="card-img" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">MultiTask</h5>
-                        <p class="card-text">Gerencie diversas tarefas ao mesmo tempo de forma eficiente, mantendo sua produtividade no topo.</p>
-                        <a href="#" class="">Saiba mais</a>
-                    </div>
-                </div>
-                <div class="card" style="width: 25rem;">
-                    <img src="./images/vetor2.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Work In Progress</h5>
-                        <p class="card-text">Acompanhe o andamento de projetos em tempo real e tenha uma visão clara do progresso das suas tarefas.</p>
-                        <a href="#" class="">Saiba mais</a>
-                    </div>
-                </div>
-                <div class="card" style="width: 25rem;">
-                    <img src="./images/solution.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Solutions</h5>
-                        <p class="card-text">Encontre soluções inteligentes para otimizar seus processos e alcançar melhores resultados no seu negócio.</p>
-                        <a href="#" class="">Saiba mais</a>
-                    </div>
-                </div>
+        <section class="contact d-flex flex-wrap justify-content-center container-fluid">
+
+            <div class="container info-contact">
+                <h2>Entre em contato</h2>
+
+                <ul>
+                    <li class="d-flex align-items-center gap-3">
+                        <i class="bi bi-map"></i>
+                        Rua seu endereço - Cidade - BR
+                    </li>
+                    <li class="d-flex align-items-center gap-3">
+                        <i class="bi bi-telephone-fill"></i>
+                        (11) 9999-9999
+                    </li>
+                    <li class="d-flex align-items-center gap-3">
+                        <i class="bi bi-whatsapp"></i>
+                        (11) 9999-9999
+                    </li>
+                    <li class="d-flex align-items-center gap-3">
+                        <i class="bi bi-envelope"></i>
+                        contato@contato.com.br
+                    </li>
+                    <hr>
+                </ul>
             </div>
+
+            <div class="container container-contact">
+                <form class="d-flex flex-column gap-4 form-contact">
+                    <label for="nome">Nome <span>*</span></label>
+                    <input type="text" placeholder="Seu nome" required maxlength="30">
+
+                    <label for="email">E-mail <span>*</span></label>
+                    <input type="email" placeholder="Seu email" required maxlength="30">
+
+                    <label for="nome">Telefone <span>*</span></label>
+                    <input type="numeric" placeholder="(__) ____-____" required maxlength="15">
+
+                    <label for="nome">Digite aqui, o motivo de seu contato: </label>
+                    <textarea placeholder="Máximo de 100 caracteres"></textarea>
+
+                    <button class="btn btn-secondary" type="submit">Enviar</button>
+                </form>
+            </div>
+
         </section>
         
-        <div class="container d-flex flex-wrap justify-content-between align-items-center client-attention">
-            <h2 class="m-0">Breve descrição para o cliente entrar em contato.</h2>
-            <a href="#">
-                Entre em contato
-            </a>
-        </div>
-        
-        <section>
-            <div class="container d-flex clients-showroom">
-
-                <div class="d-flex flex-column  align-items-center title-box">
-                    <h5>Nossos Clientes</h5>
-                    <h2>Seu sucesso, nossa inspiração diária!</h2>
-                </div>
-                <div class="d-flex align-items-center content-box">
-                    <p class="m-0">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    </p>
-                </div>
-            </div>
-
-            <div class="container d-flex logo-clients flex-wrap">
-                <img src="./images/logo1.png" alt="">
-                <img src="./images/logo2.png" alt="">
-                <img src="./images/logo3.png" alt="">
-                <img src="./images/logo4.png" alt="">
-            </div>
-        </section>
-
         <div class="container-fluid">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14639.717507750032!2d-46.54893289596566!3d-23.463011814580984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef5d2efce1267%3A0xc4e8d12bde7a4843!2sBusca%20Org%C3%A2nica!5e0!3m2!1spt-BR!2sbr!4v1738301331043!5m2!1spt-BR!2sbr" width="100%" height="600" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
@@ -256,8 +242,8 @@
             </div>
         </div>
         <div class="container d-flex justify-content-between pt-2 pb-4 info-small">
-            <small>Sua Empresa aqui - Melhor Slogan</small>
-            <img src="./images/logo-buscaorganica.png" alt="" width="100px">
+            <small>Sua Empresa aqui! <br> Melhor Slogan</small>
+            <img src="./images/logo-buscaorganica.png" alt="" width="200px">
         </div>
     </footer>
 </body>
