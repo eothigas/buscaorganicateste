@@ -53,27 +53,10 @@
     }
 }
 
-.card-em {
-    img {
-        width: 260px !important;
-        height: 220px;
+.card {
+    .follow, .fail {
+        height: 500px;
     }
-    h5 {
-        color: var(--texto);
-        font-weight: bold;
-    }
-    .card-title {
-        padding: 10px;
-    }
-}
-
-.card-em1:hover, 
-.card-em2:hover, 
-.card-em3:hover, 
-.card-em4:hover {
-    border-bottom: 6px solid var(--icons);
-    transform: scale(1.1);
-    transition: 0.8s all ease;
 }
 
 .contact {
