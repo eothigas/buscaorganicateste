@@ -69,7 +69,7 @@ li {
         }
     }
 
-    .about-banner {
+    .about-banner, .services-banner {
         img {
             width: 80%;
         }
