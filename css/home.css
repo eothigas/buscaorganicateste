@@ -99,7 +99,7 @@
 .solutions {
     padding: 100px 0;
     background: rgb(39,68,93);
-background: linear-gradient(90deg, rgba(39,68,93,1) 0%, rgba(113,187,178,1) 100%);
+    background: linear-gradient(90deg, rgba(39,68,93,1) 0%, rgba(113,187,178,1) 100%);
     a{
         text-decoration: none;
         color: var(--texto);
@@ -130,8 +130,7 @@ background: linear-gradient(90deg, rgba(39,68,93,1) 0%, rgba(113,187,178,1) 100%
 }
 
 .client-attention {
-    background: rgb(69,48,116);
-    background: linear-gradient(90deg, rgba(69,48,116,1) 0%, rgba(2,0,36,1) 100%);      
+    background: linear-gradient(90deg, rgba(43,78,108,1) 0%, rgba(39,68,93,1) 30%, rgba(73,125,116,1) 100%);   
     margin-top: -60px;
     padding: 30px;
     margin-bottom: 30px;
