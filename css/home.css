@@ -98,8 +98,8 @@
 
 .solutions {
     padding: 100px 0;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(69,48,116,1) 40%, rgba(5,195,222,1) 100%, rgba(0,212,255,1) 100%);
+    background: rgb(39,68,93);
+background: linear-gradient(90deg, rgba(39,68,93,1) 0%, rgba(113,187,178,1) 100%);
     a{
         text-decoration: none;
         color: var(--texto);
@@ -194,112 +194,3 @@
     }
 }
 
-footer {
-    background-color: var(--cor-primaria);
-    margin-top: 20px;
-    h4 {
-        margin: 0;
-    }
-}
-
-.footer {
-    border-color: var(--icons) !important;
-    a {
-        text-decoration: none;
-    }
-}
-
-.enterprise {
-    margin: 20px 0;
-    h6 {
-        color: var(--cor-secundaria);
-        margin: 5px 0;
-        font-size: 15px;
-    }
-
-    .social-media {
-        gap: 10px;
-        margin-top: 15px;
-    }
-
-    .x {
-        display: flex;
-        background-color: black;
-        color: var(--cor-secundaria);
-        padding: 8px;
-        border-radius: 50%;
-    }
-
-    .insta {
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        color: var(--cor-secundaria);
-        background-color: rgb(225, 48, 108);
-        padding: 8px;
-        border-radius: 50%;
-    }
-
-    .in {
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        color: var(--cor-secundaria);
-        background-color: rgb(14, 118, 168);
-        padding: 8px;
-        border-radius: 50%;
-    }
-
-    .yt {
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        color: var(--cor-secundaria);
-        background-color: rgb(255, 0, 0);
-        padding: 8px;
-        border-radius: 50%;
-    }
-
-    .fb {
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        color: var(--cor-secundaria);
-        background-color: rgb(66, 103, 178);
-        padding: 8px;
-        border-radius: 50%;
-    }
-}
-
-.institutional, .services {
-    margin: 40px 0 20px 0;
-    gap: 5px;
-    width: 100%;
-    h6{
-        color: var(--cor-secundaria);
-        margin-bottom: 5px;
-        font-weight: 700;
-        font-size: 20px;
-    }
-    .inst-links, .serv-links {
-        color: var(--cor-secundaria);
-        text-decoration: none;
-        border-bottom: 1px solid var(--cor-secundaria) ;
-        padding-bottom: 3px;
-        font-size: 15px;
-    }
-
-    .inst-links:hover,
-    .serv-links:hover {
-        text-decoration: underline;
-    }
-}
-
-small {
-    color: var(--cor-secundaria);
-    font-size: 14px;
-}

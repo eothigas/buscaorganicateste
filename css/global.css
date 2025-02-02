@@ -2,13 +2,13 @@
 
 :root {
     
-    --cor-primaria: rgb(69, 48, 116);
-    --cor-primaria-hover: rgb(69, 48, 116, 0.9);
+    --cor-primaria: rgb(39, 68, 93);
+    --cor-primaria-hover: rgb(39, 68, 93, 0.9);
     --cor-secundaria: white;
     --texto: rgb(49, 49, 49);
-    --cor-linha: rgb(5, 195, 222);
+    --cor-linha: rgb(113, 187, 178);
     --navbar-action: rgb(15, 24, 28);
-    --icons: rgb(5, 195, 222);
+    --icons: rgb(113, 187, 178);
 }
 
 * {
@@ -77,6 +77,15 @@ li {
 
     .sobre-empresa {
         flex-wrap: wrap;
+    }
+
+    .clients-showroom {
+        flex-wrap: wrap;
+        text-align: center;
+        .title-box, .content-box {
+            width: 100% !important;
+            justify-content: center;
+        }
     }
 }
 

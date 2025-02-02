@@ -6,7 +6,7 @@
     margin-top: 86px;
     /* border: 1px solid red; */
     padding: 100px 0;
-    background: linear-gradient(90deg, rgba(92,82,255,1) 0%, rgba(63,56,176,1) 50%, rgba(69,48,116,1) 100%);
+    background: linear-gradient(90deg, rgba(39,68,93,1) 0%, rgba(109,181,174,1) 50%, rgba(39,68,93,1) 100%);
     h2 {
         color: var(--cor-secundaria);
         letter-spacing: 5px;
