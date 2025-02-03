@@ -100,7 +100,67 @@ li {
 	}
 }
 
+@media screen and (max-width: 1240px) {
+    
+    .nav-container {
+        display: none !important;
+    }
+    .nav-container-responsive {
+        display: flex !important;
+    }
+
+    .client-attention {
+        justify-content: center !important;
+        gap: 20px;
+        /* align-items: center; */
+        h2 {
+            font-size: 20px;
+        }
+        a {
+            font-size: 16px !important;
+        }
+    }
+
+    .footer {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+
+    .institutional, .services {
+        h6 {
+            font-size:22px;
+        }
+        a {
+            font-size: 16px !important;
+        }
+    }
+
+    .about-banner, .services-banner {
+        img {
+            width: 80%;
+        }
+    }
+
+    .sobre-empresa {
+        flex-wrap: wrap;
+    }
+
+    .clients-showroom {
+        flex-wrap: wrap;
+        text-align: center;
+        .title-box, .content-box {
+            width: 100% !important;
+            justify-content: center;
+        }
+    }
+}
+
 @media screen and (max-width: 680px) {
+    
+    .whats-contato {
+        display: none;
+    }
     
     .button-actions {
         display: flex !important;
@@ -126,4 +186,3 @@ li {
     }
 
 }
-
