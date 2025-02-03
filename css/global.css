@@ -34,59 +34,70 @@ li {
     border-bottom: 3px solid var(--cor-linha) !important;
 }
 
-@media screen and (max-width: 1240px) {
-    
-    .nav-container {
-        display: none !important;
+.whats-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    right: 20px;
+    bottom: 2%;
+    z-index: 1050;
+    background-color: rgb(37 211 102);
+    border-radius: 200px;
+    border: 2px solid white;
+    padding: 20px;
+    animation: myAnim 5s infinite ease;
+    a {
+        color: white;
     }
-    .nav-container-responsive {
-        display: flex !important;
+    i {
+        padding: 20px;
+        font-size: 30px;
     }
-    .client-attention {
-        justify-content: center !important;
-        gap: 20px;
-        /* align-items: center; */
-        h2 {
-            font-size: 20px;
-        }
-        a {
-            font-size: 16px !important;
-        }
-    }
+}
 
-    .footer {
-        flex-wrap: wrap;
-        justify-content: center;
-        padding-bottom: 10px;
-    }
+.whats-contato:hover {
+    background-color: rgb(37, 211, 102, 0.8);
+}
 
-    .institutional, .services {
-        h6 {
-            font-size:22px;
-        }
-        a {
-            font-size: 16px !important;
-        }
-    }
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 1;
+		transform: translateX(-32px);
+	}
 
-    .about-banner, .services-banner {
-        img {
-            width: 80%;
-        }
-    }
+	24% {
+		opacity: 1;
+	}
 
-    .sobre-empresa {
-        flex-wrap: wrap;
-    }
+	40% {
+		animation-timing-function: ease-in;
+		transform: translateX(-10px);
+	}
 
-    .clients-showroom {
-        flex-wrap: wrap;
-        text-align: center;
-        .title-box, .content-box {
-            width: 100% !important;
-            justify-content: center;
-        }
-    }
+	65% {
+		animation-timing-function: ease-in;
+		transform: translateX(-3px);
+	}
+
+
+	25%,
+	55%,
+	75%,
+	87%,
+	98% {
+		animation-timing-function: ease-out;
+		transform: translateX(0px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateX(0px);
+	}
 }
 
 @media screen and (max-width: 680px) {
